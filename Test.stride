@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Test" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports/>
+    <implements/>
+    <fields>
+        <variable access="private" type="int" type-java="int" name="x" value="0" value-java="0" enable="true"/>
+        <variable access="private" type="String" type-java="String" name="name" value="&quot;Hallo&quot;" value-java="&quot;Hallo&quot;" enable="true"/>
+    </fields>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class Test</javadoc>
+            <params>
+                <params type="String" type-java="String" name="name"/>
+            </params>
+            <throws/>
+            <body>
+                <assign dest="name" dest-java="name" src="&quot;Hallo du&quot;" src-java="&quot;Hallo du&quot;" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods/>
+</class>

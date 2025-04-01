@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Person" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports/>
+    <implements/>
+    <fields>
+        <variable access="private" type="int" type-java="int" name="alter" enable="true"/>
+        <variable access="private" type="String" type-java="String" name="name" enable="true"/>
+        <variable access="private" type="String" type-java="String" name="adr" enable="true"/>
+    </fields>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <params type="String" type-java="String" name="name_neu"/>
+                <params type="int" type-java="int" name="alter_neu"/>
+            </params>
+            <throws/>
+            <body>
+                <assign dest="name" dest-java="name" src="name_neu" src-java="name_neu" enable="true"/>
+                <assign dest="adr" dest-java="adr" src="&quot;Erlangen&quot;" src-java="&quot;Erlangen&quot;" enable="true"/>
+                <assign dest="alter" dest-java="alter" src="alter_neu" src-java="alter_neu" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="public" type="void" type-java="void" name="ausgeben" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="System.out.println(adr)" expression-java="System.out.println(adr)" enable="true"/>
+                <call expression="System.out.println(name)" expression-java="System.out.println(name)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
