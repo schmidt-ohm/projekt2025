@@ -15,7 +15,7 @@
             </params>
             <throws/>
             <body>
-                <assign dest="name" dest-java="name" src="&quot;Hallo du&quot;" src-java="&quot;Hallo du&quot;" enable="true"/>
+                <assign dest="name" dest-java="name" src="&quot;Hallo Git&quot;" src-java="&quot;Hallo Git&quot;" enable="true"/>
             </body>
         </constructor>
     </constructors>
