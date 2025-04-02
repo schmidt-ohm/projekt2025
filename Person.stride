@@ -18,7 +18,7 @@
             <throws/>
             <body>
                 <assign dest="name" dest-java="name" src="name_neu" src-java="name_neu" enable="true"/>
-                <assign dest="adr" dest-java="adr" src="&quot;Erlangen&quot;" src-java="&quot;Erlangen&quot;" enable="true"/>
+                <assign dest="adr" dest-java="adr" src="&quot;Nürnberg&quot;" src-java="&quot;Nürnberg&quot;" enable="true"/>
                 <assign dest="alter" dest-java="alter" src="alter_neu" src-java="alter_neu" enable="true"/>
             </body>
         </constructor>
