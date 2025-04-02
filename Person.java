@@ -16,7 +16,7 @@ public class Person
     public Person(String name_neu, int alter_neu)
     {
         name = name_neu;
-        adr = "Nürnberg";
+        adr = "Coburg";
         alter = alter_neu;
     }
 
