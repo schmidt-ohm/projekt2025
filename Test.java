@@ -14,6 +14,6 @@ public class Test
      */
     public Test(String name)
     {
-        name = "Hallo GitHup";
+        name = "Hallo GitHup, schön hier";
     }
 }
